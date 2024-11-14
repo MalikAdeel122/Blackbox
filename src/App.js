@@ -31,8 +31,10 @@
 import React from "react";
 // import "./App.css";
 import "./css/style.css";
-// import "./global.css";
+import "./css/sidebar.css";
+// import "./css/global.css";
 import "./css/media.css";
+import "./css/dashMedia.css";
 import { Route, Routes } from "react-router-dom";
 import Header from "./component/Header";
 import Sidebar from "./component/Sidebar";

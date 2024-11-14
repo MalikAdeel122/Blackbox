@@ -1,5 +1,5 @@
 import React from "react";
-
+import { HiOutlineBars3BottomRight } from "react-icons/hi2";
 const Header = () => {
   return (
     <div className="dash-header">
@@ -10,7 +10,9 @@ const Header = () => {
             <h1 className="logo-name">BlackBox</h1>
           </div>
         </div>
-        <div className="rs"></div>
+        <div className="rs">
+          <HiOutlineBars3BottomRight />
+        </div>
       </div>
     </div>
   );
