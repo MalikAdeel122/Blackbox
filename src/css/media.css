@@ -1,0 +1,236 @@
+/* max-width: 1200px */
+@media (max-width: 1200px) {
+  .header .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .home .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .home_img {
+    margin-top: 50px;
+  }
+  .about .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .Skill .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .servies .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .portfolio .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .Reviews .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .contact .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+/* max-width: 1024px */
+
+@media (max-width: 1024px) {
+  .header .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .home .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .about .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .Skill .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .skill_wave {
+    margin: 0px;
+  }
+  .servies .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .portfolio .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .Reviews .wrapper {
+    width: 100%;
+  }
+  .rev_container {
+    margin: 40px 150px 0 150px;
+  }
+  .contact .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .cont_container {
+    margin: 60px 50px 0 30px;
+  }
+}
+
+/* max-width: 768px */
+
+@media (max-width: 768px) {
+  .header .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .header .wrapper .rs .rs_menu {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    background-color: #b6ced3;
+    padding: 30px;
+    border-radius: 20px;
+    display: none;
+  }
+  .header .wrapper .rs .rs_menu.show {
+    display: block;
+  }
+  .header .wrapper .rs .rs_menu .rs_header_list {
+    display: block;
+    margin-bottom: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  .header .wrapper .rs .rs_menu .rs_header_list .header_link {
+    color: #444;
+  }
+  .Menu {
+    display: block;
+  }
+  .home .wrapper {
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .about .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .about_container {
+    flex-direction: column;
+    text-align: center;
+    display: contents;
+  }
+  .about .wrapper .about_ls {
+    margin-right: 0px;
+    margin-bottom: 80px;
+  }
+  .about_button {
+    margin-left: 35%;
+  }
+  .servies .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .ser_wave {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .por_container {
+    flex-direction: column;
+  }
+  .por_ls .por_img {
+    margin-bottom: 50px;
+  }
+  .por_wave {
+    min-width: 420px;
+    margin: 0px;
+    margin-top: 50px;
+  }
+  .por_wave_ls h1 {
+    font-size: 18px;
+  }
+  .por_wave_ls p {
+    font-size: 14px;
+  }
+  .pro_wave_ls_button {
+    width: 150px;
+  }
+  .pro_wave_ls_btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .por_wave_rs_img img {
+    width: 180px;
+  }
+  .rev_wave {
+    flex-direction: column;
+  }
+  .rev_container {
+    margin: 40px 150px 0 100px;
+    width: 550px;
+    padding: 20px;
+  }
+  .cont_container {
+    flex-direction: column;
+  }
+}
+
+/* max-width: 680px */
+
+@media (max-width: 680px) {
+  .header .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .home .wrapper {
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .about .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .ser_wave {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .rev_wave {
+    margin: 0 50px 0 100px;
+  }
+  .rev_container {
+    margin: 40px 100px 0 50px;
+  }
+  .por_ls .por_img img {
+    width: 350px;
+    height: 100%;
+  }
+}
+
+/* max-width: 480px */
+
+@media (max-width: 480px) {
+  .rev_wave {
+    margin: 0 50px 0 50px;
+  }
+  .rev_container {
+    margin: 40px 0px 0 0px;
+    width: 400px;
+    font-size: 20px;
+    padding: 0px;
+  }
+  .Skill .skill_ls_heading {
+    font-size: 16px;
+  }
+  .Skill .skill_year {
+    font-size: 12px;
+  }
+  .Skill .skill_rs_heading {
+    font-size: 16px;
+  }
+}

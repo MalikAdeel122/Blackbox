@@ -1,0 +1,147 @@
+*,
+html,
+body,
+div,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+label,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+div,
+img,
+button,
+input,
+textarea,
+select {
+  outline: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+a,
+img,
+button,
+input {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background: none;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.font {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===========BASIC========= */
+
+*,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+div,
+.btn,
+input,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+}
+
+a,
+ul,
+li,
+img,
+input,
+textarea {
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+.app-width {
+  width: var(--app-width);
+  margin: 0 auto;
+}
+
+:root {
+  --app-width: 1440px;
+}
